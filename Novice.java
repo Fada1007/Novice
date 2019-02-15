@@ -79,3 +79,14 @@ public class Novice {
 
         } while (number != 0);
     }
+    public void addItem(String itemName) {
+        this.bag.addItem(itemName);
+        
+    }
+
+
+
+    public void showItem() {
+        this.bag.showItem();
+        System.out.println();
+    }
